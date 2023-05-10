@@ -42,7 +42,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 locale.setlocale(locale.LC_ALL, 'pt_PT.UTF-8')
 
 # Import Dataset
-df_sales = pd.read_csv("C:/Users/antun/OneDrive/Documentos/Projetos/clusterizacao_distribuidor_atacadista/dados_clientes_atacado.csv")
+df_sales = pd.read_csv("Wholesale-customers-data.csv")
 
 
 # ### Data dictionary
